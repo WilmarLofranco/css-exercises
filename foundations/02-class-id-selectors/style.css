@@ -1,0 +1,20 @@
+/* styles.css */
+
+.odd {
+    background-color: rgb(226, 163, 174);
+    font-family: "Dejavu Sans", sans-serif;
+}
+
+#el2 {
+    color: rgb(4, 8, 241);
+    font-size: 36px;
+}
+
+.font24 {
+    font-size: 24px;
+}
+
+#el4 {
+    background-color: rgb(138, 238, 138);
+    font-weight: bold;
+}

@@ -23,15 +23,10 @@ div.info {
 .info div {
   width: 200px;
   flex-wrap: wrap;
-}
-
-.one,
-.two,
-.three,
-.four {
   display: flex;
   justify-content: center;
 }
+
 
 
 

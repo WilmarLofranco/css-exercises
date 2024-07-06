@@ -20,7 +20,26 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex ;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 16px;
 }
+
+.top {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin: 4px;
+  gap: 8px;
+}
+
+.header {
+  flex: 1;
+  font-weight: bolder;
+  font-size: larger;
+}
+
 
 .icon {
   color: royalblue;
@@ -50,10 +69,24 @@ body {
   padding: 0;
 }
 
+.text {
+  margin-left: 58px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+div .button {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 8px;
+  margin-left: 58px;
 }
 
 button.continue {
